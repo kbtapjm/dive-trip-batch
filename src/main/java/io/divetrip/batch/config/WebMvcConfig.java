@@ -1,4 +1,4 @@
-package io.divetrip.config;
+package io.divetrip.batch.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;

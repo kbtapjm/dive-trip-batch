@@ -1,4 +1,4 @@
-package io.divetrip.config;
+package io.divetrip.batch.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

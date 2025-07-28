@@ -1,9 +1,9 @@
-package io.divetrip.exception.handler;
+package io.divetrip.batch.exception.handler;
 
-import io.divetrip.enumeration.DiveTripError;
-import io.divetrip.exception.DiveTripException;
-import io.divetrip.exception.dto.ExceptionResponse;
-import io.divetrip.util.MessageUtils;
+import io.divetrip.batch.enumeration.DiveTripError;
+import io.divetrip.batch.exception.dto.ExceptionResponse;
+import io.divetrip.batch.exception.error.DiveTripException;
+import io.divetrip.library.util.MessageUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

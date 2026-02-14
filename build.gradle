@@ -10,11 +10,15 @@ repositories {
 }
 
 dependencies {
-	implementation project(':dive-trip-library')
+	implementation project(':dive-trip-library');
 
+	// web
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// batch
 	implementation 'org.springframework.boot:spring-boot-starter-batch'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.batch:spring-batch-test'
+
 	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
 }
 
